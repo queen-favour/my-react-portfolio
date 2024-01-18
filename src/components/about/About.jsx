@@ -24,7 +24,7 @@ const About = () => {
         <article className="about__card">
             <FaAward className='about__icon'/>
             <h5>Experience</h5>
-            <small>1 year working</small>
+            <small>1 year coding</small>
         </article>
 
         <article className="about__card">
@@ -40,10 +40,7 @@ const About = () => {
           </article>
         </div>
 
-        <p>Lorem, ipsum dolor sit amet consectetur 
-          adipisicing elit. Neque ut vero repellat est illum tenetur
-           repudiandae quos, odit deleniti eaque ad, excepturi possimus sed debitis
-            sapiente, corrupti reprehenderit et reiciendis!</p>
+        <p> I am a dedicated React Frontend Developer with aspirations to evolve into a MERN Full Stack Developer. Holding a BSc in Information Technology and Business Information Systems, Committed to crafting exceptional user experiences and grounded in usability and accessibility standards.</p>
 
         <a href="#contact" className='btn btn-primary'>Let's Talk</a>
             
