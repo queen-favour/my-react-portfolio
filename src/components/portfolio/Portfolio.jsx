@@ -1,8 +1,8 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/portfolio1.jpg'
-import IMG2 from '../../assets/portfolio2.jpg'
-import IMG3 from '../../assets/portfolio3.jpg'
+import IMG1 from '../../assets/country-api-project.jpg'
+import IMG2 from '../../assets/cart-list-project.jpg'
+import IMG3 from '../../assets/contact-form-project.jpg'
 import IMG4 from '../../assets/portfolio4.jpg'
 import IMG5 from '../../assets/portfolio5.png'
 import IMG6 from '../../assets/portfolio6.jpg'
@@ -12,16 +12,23 @@ const data = [
   {
     id: 1,
     image : IMG1,
-    title: 'Warri Rotary Club Website',
-    github: 'https://github.com/queen-favour/rotary',
-    demo:  'https://rotary-website-warri.netlify.app/',
+    title: 'REST Countries API with Color Theme Switcher',
+    github: 'https://github.com/queen-favour/country-api.git',
+    demo:  'https://country-api-taupe.vercel.app/',
   },
   {
     id: 2,
     image : IMG2,
-    title: 'Pink Drag and Drop Gallery',
-    github: 'https://github.com/queen-favour/stage3-HNG',
-    demo:  'https://stage3-hng-pltg.vercel.app/gallery',
+    title: 'Products List with Cart',
+    github: 'https://github.com/queen-favour/add-to-cart.git',
+    demo:  'https://add-to-cart-mu-six.vercel.app/',
+  },
+  {
+    id: 2,
+    image : IMG3,
+    title: 'Contact Form',
+    github: 'https://github.com/queen-favour/contact-form.git',
+    demo:  'https://contact-form-two-vert.vercel.app/',
   },
 ]
 
